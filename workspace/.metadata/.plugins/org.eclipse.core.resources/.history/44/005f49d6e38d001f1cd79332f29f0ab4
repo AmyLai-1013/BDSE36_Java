@@ -1,0 +1,24 @@
+package com.siang.HW01;
+
+import java.util.Scanner;
+
+public class LeapYear {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int year = scanner.nextInt();
+		//int year = 2024;
+		scanner.close();
+		if(year % 100 == 0 && year % 400 != 0) {
+			System.out.println("不是閏年");
+		}
+		else if(year % 4 == 0) {
+			System.out.println("閏年");
+		}
+		else {
+			System.out.println("不是閏年");
+		}
+
+	}
+
+}

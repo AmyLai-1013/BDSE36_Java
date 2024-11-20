@@ -1,0 +1,15 @@
+package com.siang.HW02;
+
+import java.util.Scanner;
+
+public class Prime {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("請輸入一個正整數");
+		int n = scanner.nextInt();
+		scanner.close();
+
+	}
+
+}
